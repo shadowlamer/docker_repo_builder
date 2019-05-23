@@ -13,15 +13,15 @@ BUILD_SCRIPT="./build.sh"
 
 [ -f ${SETTINGS} ] && . ${SETTINGS}
 
-read_param REPO             "Название дистрибутива Ubuntu"               "xenial"
-read_param REPO_URL         "Имя хоста, где будет развернут репозиторий" "localhost"
-read_param REPO_USER        "Логин для защиты репозитория"               "3voda"
-read_param REPO_PASSWD      "Пароль для защиты репозитория"              ""
-read_param REPO_LABEL       "Описание репозитория"                       "Private repo"
-read_param MAINTAINER_NAME  "Имя для генерации GPG ключа"                "maintainer"
-read_param MAINTAINER_EMAIL "Email для генерации GPG ключа"              "${MAINTAINER_NAME}@${REPO_URL}"
-read_param GIT_USER         "Логин для Git-репозитория"                  ""
-read_param GIT_PASSWD       "Пароль для Git-репозитория"                 ""
+read_param REPO             "Ubuntu distro name"             "xenial"
+read_param REPO_URL         "Repo deploying URL"             "localhost"
+read_param REPO_USER        "Login to protect the repo"      "3voda"
+read_param REPO_PASSWD      "Password to protect the repo"   ""
+read_param REPO_LABEL       "Repo description"               "Private repo"
+read_param MAINTAINER_NAME  "Name to generate GPG key"       "maintainer"
+read_param MAINTAINER_EMAIL "Email to generate GPG key"      "${MAINTAINER_NAME}@${REPO_URL}"
+read_param GIT_USER         "Git repo login"                 ""
+read_param GIT_PASSWD       "Git repo password"              ""
 
 #make build script
 echo docker build '$@' \
