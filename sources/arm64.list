@@ -1,0 +1,7 @@
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial main restricted
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial-updates main restricted
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial universe
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial-updates universe
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial multiverse
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial-updates multiverse
+deb [arch=arm64,armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial-backports main restricted universe multiverse

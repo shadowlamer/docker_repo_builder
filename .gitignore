@@ -1,0 +1,6 @@
+pgp_keys/**
+!pgp_keys/placeholder
+files/**
+.settings
+build.sh
+*.yml
