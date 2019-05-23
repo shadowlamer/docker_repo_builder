@@ -1,0 +1,9 @@
+Package: 3voda-udev-rules
+Version: 0.0.1
+Section: non-free
+Priority: optional
+Architecture: all
+Depends: udev
+Maintainer: Vadim Cherenev <sl@anhot.ru>
+Description: Udev rules for 3voda devices
+
