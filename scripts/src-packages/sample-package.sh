@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGE="a3voda-dev"
+PACKAGE="sample-package"
 GITURL="https://github.com/shadowlamer/mqtt-client-boilerplate.git"
 DEPENDS="libpoco-dev libmosquitto-dev libmosquittopp-dev"
 DEPENDS_NOARCH="rapidjson-dev"
